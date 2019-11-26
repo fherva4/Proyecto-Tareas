@@ -1,0 +1,444 @@
+import org.eclipse.swt.widgets.Display;
+import org.eclipse.swt.widgets.Shell;
+import org.eclipse.swt.widgets.Button;
+import org.eclipse.swt.SWT;
+import org.eclipse.swt.events.SelectionAdapter;
+import org.eclipse.swt.events.SelectionEvent;
+import org.eclipse.swt.widgets.Text;
+import org.eclipse.wb.swt.SWTResourceManager;
+import org.eclipse.swt.widgets.Composite;
+
+public class NumberOne {
+
+	protected Shell shell;
+	private Composite composite;
+	private Text text;
+	private Text text_1;
+	private Text text_2;
+	private Text text_3;
+	private Text text_4;
+	private Text text_5;
+	private Text text_6;
+	private Text text_7;
+	private Text text_8;
+	private Text text_9;
+	private Text text_10;
+	private Text text_11;
+	private Text text_12;
+	private Text text_13;
+	private Text text_14;
+	private Text text_15;
+	private Text text_16;
+	private Text text_17;
+	private Text text_18;
+	private Text text_19;
+	private Text text_20;
+	private Text text_21;
+	private Text text_22;
+	private Text text_23;
+	private Text text_24;
+	private Text text_25;
+	private Text text_26;
+	private Text text_27;
+	private Text text_28;
+	private Text text_29;
+	private Text text_30;
+	private Text text_31;
+	private Text text_32;
+	private Text text_33;
+	private Text text_34;
+	private Text text_35;
+	private Text text_36;
+	private Text text_37;
+	private Text text_38;
+	private Text text_39;
+	private Text text_40;
+	private Text text_41;
+	private Text text_42;
+	private Text text_43;
+	private Text text_44;
+	private Text text_45;
+	private Text text_46;
+	private Text text_47;
+	private Text text_48;
+	private Text text_49;
+	private Text text_50;
+	private Text text_51;
+	private Text text_52;
+	private Text text_53;
+	private Text text_54;
+	private Text text_55;
+	private Text text_56;
+	private Text text_57;
+	private Text text_58;
+	private Text text_59;
+	private Text text_60;
+	private Text text_61;
+	private Text text_62;
+	private Text text_63;
+	private Text text_64;
+	private Text text_65;
+	private Text text_66;
+	private Text text_67;
+	private Text text_68;
+	private Text text_69;
+	private Text text_70;
+	private Text text_71;
+	private Text text_72;
+	private Text text_73;
+	private Text text_74;
+	private Text text_75;
+	private Text text_76;
+	private Text text_77;
+	private Text text_78;
+	private Text text_79;
+	private Text text_80;
+
+	/**
+	 * Launch the application.
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		try {
+			NumberOne window = new NumberOne();
+			window.open();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	/**
+	 * Open the window.
+	 */
+	public void open() {
+		Display display = Display.getDefault();
+		createContents();
+		shell.open();
+		shell.layout();
+		while (!shell.isDisposed()) {
+			if (!display.readAndDispatch()) {
+				display.sleep();
+			}
+		}
+	}
+
+	/**
+	 * Create contents of the window.
+	 */
+	protected void createContents() {
+		shell = new Shell();
+		shell.setSize(400, 453);
+		shell.setText("Sudoku");
+		
+		Button btnEasy = new Button(shell, SWT.NONE);
+		btnEasy.addSelectionListener(new SelectionAdapter() {
+			@Override
+			public void widgetSelected(SelectionEvent e) {
+			}
+		});
+		btnEasy.setBounds(10, 379, 75, 25);
+		btnEasy.setText("Easy");
+		
+		Button btnMedium = new Button(shell, SWT.NONE);
+		btnMedium.setBounds(153, 379, 75, 25);
+		btnMedium.setText("Medium");
+		
+		Button btnHard = new Button(shell, SWT.NONE);
+		btnHard.addSelectionListener(new SelectionAdapter() {
+			@Override
+			public void widgetSelected(SelectionEvent e) {
+			}
+		});
+		btnHard.setBounds(299, 379, 75, 25);
+		btnHard.setText("Hard");
+		
+		composite = new Composite(shell, SWT.NONE);
+		composite.setBounds(30, 10, 318, 315);
+		composite.setLayout(null);
+		
+		text = new Text(composite, SWT.BORDER);
+		text.setBackground(SWTResourceManager.getColor(SWT.COLOR_WIDGET_LIGHT_SHADOW));
+		text.setBounds(0, 0, 30, 30);
+		
+		text_1 = new Text(composite, SWT.BORDER);
+		text_1.setBounds(0, 36, 30, 30);
+		
+		text_2 = new Text(composite, SWT.BORDER);
+		text_2.setBackground(SWTResourceManager.getColor(SWT.COLOR_WIDGET_LIGHT_SHADOW));
+		text_2.setBounds(0, 72, 30, 30);
+		
+		text_3 = new Text(composite, SWT.BORDER);
+		text_3.setBounds(0, 108, 30, 30);
+		
+		text_4 = new Text(composite, SWT.BORDER);
+		text_4.setBackground(SWTResourceManager.getColor(SWT.COLOR_WIDGET_LIGHT_SHADOW));
+		text_4.setBounds(0, 144, 30, 30);
+		
+		text_5 = new Text(composite, SWT.BORDER);
+		text_5.setBounds(0, 180, 30, 30);
+		
+		text_6 = new Text(composite, SWT.BORDER);
+		text_6.setBackground(SWTResourceManager.getColor(SWT.COLOR_WIDGET_LIGHT_SHADOW));
+		text_6.setBounds(0, 216, 30, 30);
+		
+		text_7 = new Text(composite, SWT.BORDER);
+		text_7.setBounds(0, 252, 30, 30);
+		
+		text_8 = new Text(composite, SWT.BORDER);
+		text_8.setBackground(SWTResourceManager.getColor(SWT.COLOR_WIDGET_LIGHT_SHADOW));
+		text_8.setBounds(0, 285, 30, 30);
+		
+		text_9 = new Text(composite, SWT.BORDER);
+		text_9.setBounds(36, 285, 30, 30);
+		
+		text_10 = new Text(composite, SWT.BORDER);
+		text_10.setBackground(SWTResourceManager.getColor(SWT.COLOR_WIDGET_LIGHT_SHADOW));
+		text_10.setBounds(36, 252, 30, 30);
+		
+		text_11 = new Text(composite, SWT.BORDER);
+		text_11.setBounds(36, 216, 30, 30);
+		
+		text_12 = new Text(composite, SWT.BORDER);
+		text_12.setBackground(SWTResourceManager.getColor(SWT.COLOR_WIDGET_LIGHT_SHADOW));
+		text_12.setBounds(36, 180, 30, 30);
+		
+		text_13 = new Text(composite, SWT.BORDER);
+		text_13.setBounds(36, 144, 30, 30);
+		
+		text_14 = new Text(composite, SWT.BORDER);
+		text_14.setBackground(SWTResourceManager.getColor(SWT.COLOR_WIDGET_LIGHT_SHADOW));
+		text_14.setBounds(36, 108, 30, 30);
+		
+		text_15 = new Text(composite, SWT.BORDER);
+		text_15.setBounds(36, 72, 30, 30);
+		
+		text_16 = new Text(composite, SWT.BORDER);
+		text_16.setBackground(SWTResourceManager.getColor(SWT.COLOR_WIDGET_LIGHT_SHADOW));
+		text_16.setBounds(36, 36, 30, 30);
+		
+		text_17 = new Text(composite, SWT.BORDER);
+		text_17.setBounds(36, 0, 30, 30);
+		
+		text_18 = new Text(composite, SWT.BORDER);
+		text_18.setBackground(SWTResourceManager.getColor(SWT.COLOR_WIDGET_LIGHT_SHADOW));
+		text_18.setBounds(72, 285, 30, 30);
+		
+		text_19 = new Text(composite, SWT.BORDER);
+		text_19.setBounds(72, 252, 30, 30);
+		
+		text_20 = new Text(composite, SWT.BORDER);
+		text_20.setBackground(SWTResourceManager.getColor(SWT.COLOR_WIDGET_LIGHT_SHADOW));
+		text_20.setBounds(72, 216, 30, 30);
+		
+		text_21 = new Text(composite, SWT.BORDER);
+		text_21.setBounds(72, 180, 30, 30);
+		
+		text_22 = new Text(composite, SWT.BORDER);
+		text_22.setBackground(SWTResourceManager.getColor(SWT.COLOR_WIDGET_LIGHT_SHADOW));
+		text_22.setBounds(72, 144, 30, 30);
+		
+		text_23 = new Text(composite, SWT.BORDER);
+		text_23.setBounds(72, 108, 30, 30);
+		
+		text_24 = new Text(composite, SWT.BORDER);
+		text_24.setBackground(SWTResourceManager.getColor(SWT.COLOR_WIDGET_LIGHT_SHADOW));
+		text_24.setBounds(72, 72, 30, 30);
+		
+		text_25 = new Text(composite, SWT.BORDER);
+		text_25.setBounds(72, 36, 30, 30);
+		
+		text_26 = new Text(composite, SWT.BORDER);
+		text_26.setBackground(SWTResourceManager.getColor(SWT.COLOR_WIDGET_LIGHT_SHADOW));
+		text_26.setBounds(72, 0, 30, 30);
+		
+		text_27 = new Text(composite, SWT.BORDER);
+		text_27.setBounds(108, 285, 30, 30);
+		
+		text_28 = new Text(composite, SWT.BORDER);
+		text_28.setBackground(SWTResourceManager.getColor(SWT.COLOR_WIDGET_LIGHT_SHADOW));
+		text_28.setBounds(108, 252, 30, 30);
+		
+		text_29 = new Text(composite, SWT.BORDER);
+		text_29.setBounds(108, 216, 30, 30);
+		
+		text_30 = new Text(composite, SWT.BORDER);
+		text_30.setBackground(SWTResourceManager.getColor(SWT.COLOR_WIDGET_LIGHT_SHADOW));
+		text_30.setBounds(108, 180, 30, 30);
+		
+		text_31 = new Text(composite, SWT.BORDER);
+		text_31.setBounds(108, 144, 30, 30);
+		
+		text_32 = new Text(composite, SWT.BORDER);
+		text_32.setBackground(SWTResourceManager.getColor(SWT.COLOR_WIDGET_LIGHT_SHADOW));
+		text_32.setBounds(108, 108, 30, 30);
+		
+		text_33 = new Text(composite, SWT.BORDER);
+		text_33.setBounds(108, 72, 30, 30);
+		
+		text_34 = new Text(composite, SWT.BORDER);
+		text_34.setBackground(SWTResourceManager.getColor(SWT.COLOR_WIDGET_LIGHT_SHADOW));
+		text_34.setBounds(108, 36, 30, 30);
+		
+		text_35 = new Text(composite, SWT.BORDER);
+		text_35.setBounds(108, 0, 30, 30);
+		
+		text_36 = new Text(composite, SWT.BORDER);
+		text_36.setBackground(SWTResourceManager.getColor(SWT.COLOR_WIDGET_LIGHT_SHADOW));
+		text_36.setBounds(144, 285, 30, 30);
+		
+		text_37 = new Text(composite, SWT.BORDER);
+		text_37.setBounds(144, 252, 30, 30);
+		
+		text_38 = new Text(composite, SWT.BORDER);
+		text_38.setBackground(SWTResourceManager.getColor(SWT.COLOR_WIDGET_LIGHT_SHADOW));
+		text_38.setBounds(144, 216, 30, 30);
+		
+		text_39 = new Text(composite, SWT.BORDER);
+		text_39.setBounds(144, 180, 30, 30);
+		
+		text_40 = new Text(composite, SWT.BORDER);
+		text_40.setBackground(SWTResourceManager.getColor(SWT.COLOR_WIDGET_LIGHT_SHADOW));
+		text_40.setBounds(144, 144, 30, 30);
+		
+		text_41 = new Text(composite, SWT.BORDER);
+		text_41.setBounds(144, 108, 30, 30);
+		
+		text_42 = new Text(composite, SWT.BORDER);
+		text_42.setBackground(SWTResourceManager.getColor(SWT.COLOR_WIDGET_LIGHT_SHADOW));
+		text_42.setBounds(144, 72, 30, 30);
+		
+		text_43 = new Text(composite, SWT.BORDER);
+		text_43.setBounds(144, 36, 30, 30);
+		
+		text_44 = new Text(composite, SWT.BORDER);
+		text_44.setBackground(SWTResourceManager.getColor(SWT.COLOR_WIDGET_LIGHT_SHADOW));
+		text_44.setBounds(144, 0, 30, 30);
+		
+		text_45 = new Text(composite, SWT.BORDER);
+		text_45.setBounds(180, 285, 30, 30);
+		
+		text_46 = new Text(composite, SWT.BORDER);
+		text_46.setBackground(SWTResourceManager.getColor(SWT.COLOR_WIDGET_LIGHT_SHADOW));
+		text_46.setBounds(180, 252, 30, 30);
+		
+		text_47 = new Text(composite, SWT.BORDER);
+		text_47.setBounds(180, 216, 30, 30);
+		
+		text_48 = new Text(composite, SWT.BORDER);
+		text_48.setBackground(SWTResourceManager.getColor(SWT.COLOR_WIDGET_LIGHT_SHADOW));
+		text_48.setBounds(180, 180, 30, 30);
+		
+		text_49 = new Text(composite, SWT.BORDER);
+		text_49.setBounds(180, 144, 30, 30);
+		
+		text_50 = new Text(composite, SWT.BORDER);
+		text_50.setBackground(SWTResourceManager.getColor(SWT.COLOR_WIDGET_LIGHT_SHADOW));
+		text_50.setBounds(180, 108, 30, 30);
+		
+		text_51 = new Text(composite, SWT.BORDER);
+		text_51.setBounds(180, 72, 30, 30);
+		
+		text_52 = new Text(composite, SWT.BORDER);
+		text_52.setBackground(SWTResourceManager.getColor(SWT.COLOR_WIDGET_LIGHT_SHADOW));
+		text_52.setBounds(180, 36, 30, 30);
+		
+		text_53 = new Text(composite, SWT.BORDER);
+		text_53.setBounds(180, 0, 30, 30);
+		
+		text_54 = new Text(composite, SWT.BORDER);
+		text_54.setBackground(SWTResourceManager.getColor(SWT.COLOR_WIDGET_LIGHT_SHADOW));
+		text_54.setBounds(216, 285, 30, 30);
+		
+		text_55 = new Text(composite, SWT.BORDER);
+		text_55.setBounds(216, 252, 30, 30);
+		
+		text_56 = new Text(composite, SWT.BORDER);
+		text_56.setBackground(SWTResourceManager.getColor(SWT.COLOR_WIDGET_LIGHT_SHADOW));
+		text_56.setBounds(216, 216, 30, 30);
+		
+		text_57 = new Text(composite, SWT.BORDER);
+		text_57.setBounds(216, 180, 30, 30);
+		
+		text_58 = new Text(composite, SWT.BORDER);
+		text_58.setBackground(SWTResourceManager.getColor(SWT.COLOR_WIDGET_LIGHT_SHADOW));
+		text_58.setBounds(216, 144, 30, 30);
+		
+		text_59 = new Text(composite, SWT.BORDER);
+		text_59.setBounds(216, 108, 30, 30);
+		
+		text_60 = new Text(composite, SWT.BORDER);
+		text_60.setBackground(SWTResourceManager.getColor(SWT.COLOR_WIDGET_LIGHT_SHADOW));
+		text_60.setBounds(216, 72, 30, 30);
+		
+		text_61 = new Text(composite, SWT.BORDER);
+		text_61.setBounds(216, 36, 30, 30);
+		
+		text_62 = new Text(composite, SWT.BORDER);
+		text_62.setBackground(SWTResourceManager.getColor(SWT.COLOR_WIDGET_LIGHT_SHADOW));
+		text_62.setBounds(216, 0, 30, 30);
+		
+		text_63 = new Text(composite, SWT.BORDER);
+		text_63.setBounds(252, 285, 30, 30);
+		
+		text_64 = new Text(composite, SWT.BORDER);
+		text_64.setBackground(SWTResourceManager.getColor(SWT.COLOR_WIDGET_LIGHT_SHADOW));
+		text_64.setBounds(252, 252, 30, 30);
+		
+		text_65 = new Text(composite, SWT.BORDER);
+		text_65.setBounds(252, 216, 30, 30);
+		
+		text_66 = new Text(composite, SWT.BORDER);
+		text_66.setBackground(SWTResourceManager.getColor(SWT.COLOR_WIDGET_LIGHT_SHADOW));
+		text_66.setBounds(252, 180, 30, 30);
+		
+		text_67 = new Text(composite, SWT.BORDER);
+		text_67.setBounds(252, 144, 30, 30);
+		
+		text_68 = new Text(composite, SWT.BORDER);
+		text_68.setBackground(SWTResourceManager.getColor(SWT.COLOR_WIDGET_LIGHT_SHADOW));
+		text_68.setBounds(252, 108, 30, 30);
+		
+		text_69 = new Text(composite, SWT.BORDER);
+		text_69.setBounds(252, 72, 30, 30);
+		
+		text_70 = new Text(composite, SWT.BORDER);
+		text_70.setBackground(SWTResourceManager.getColor(SWT.COLOR_WIDGET_LIGHT_SHADOW));
+		text_70.setBounds(252, 36, 30, 30);
+		
+		text_71 = new Text(composite, SWT.BORDER);
+		text_71.setBounds(252, 0, 30, 30);
+		
+		text_72 = new Text(composite, SWT.BORDER);
+		text_72.setBackground(SWTResourceManager.getColor(SWT.COLOR_WIDGET_LIGHT_SHADOW));
+		text_72.setBounds(288, 285, 30, 30);
+		
+		text_73 = new Text(composite, SWT.BORDER);
+		text_73.setBounds(288, 252, 30, 30);
+		
+		text_74 = new Text(composite, SWT.BORDER);
+		text_74.setBackground(SWTResourceManager.getColor(SWT.COLOR_WIDGET_LIGHT_SHADOW));
+		text_74.setBounds(288, 216, 30, 30);
+		
+		text_75 = new Text(composite, SWT.BORDER);
+		text_75.setBounds(288, 180, 30, 30);
+		
+		text_76 = new Text(composite, SWT.BORDER);
+		text_76.setBackground(SWTResourceManager.getColor(SWT.COLOR_WIDGET_LIGHT_SHADOW));
+		text_76.setBounds(288, 144, 30, 30);
+		
+		text_77 = new Text(composite, SWT.BORDER);
+		text_77.setBounds(288, 108, 30, 30);
+		
+		text_78 = new Text(composite, SWT.BORDER);
+		text_78.setBackground(SWTResourceManager.getColor(SWT.COLOR_WIDGET_LIGHT_SHADOW));
+		text_78.setBounds(288, 72, 30, 30);
+		
+		text_79 = new Text(composite, SWT.BORDER);
+		text_79.setBounds(288, 36, 30, 30);
+		
+		text_80 = new Text(composite, SWT.BORDER);
+		text_80.setBackground(SWTResourceManager.getColor(SWT.COLOR_WIDGET_LIGHT_SHADOW));
+		text_80.setBounds(288, 0, 30, 30);
+
+	}
+}
